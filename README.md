@@ -50,15 +50,15 @@ Together opening and closing tag is called as element
 >- ![Alt text](image-1.png)
 >
 > Tags to make sentence **BOLD**
->- ''<strong>Hey Jazz!</strong>''
->- ''<b>Hello, David!</b>''
+>- ``<strong>Hey Jazz!</strong>``
+>- ``<b>Hello, David!</b>``
 >
 > Tags to make sentence *Italic*
->- ''<i>How're you ?</i>''
->- ''<em>Fine!</em>''
+>- ``<i>How're you ?</i>``
+>- ``<em>Fine!</em>``
 >
 > Tags to link another Page/Web
->- ''<a href="https://mail.google.com/">Mail</a>''
+>- ``<a href="https://mail.google.com/">Mail</a>``
 >- a = tag
 >- href = attribute
 >
