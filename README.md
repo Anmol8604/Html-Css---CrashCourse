@@ -22,32 +22,31 @@
 >- Programming Language
 >- Can manipulate HTML and CSS
 
->- # The Fronted and Carrer Path
->- ![Alt text](image.png)
+> # The Fronted and Carrer Path
+> ![Alt text](image.png)
 
 >
-> 
-<!-- 
+>  
 Html is a very Simple language:
-that tells the browser what the content we are writing actually is : Heading or paragraph ?
+>that tells the browser what the content we are writing actually is : Heading or paragraph ?
+>
+> Basis Tags :
+> <Think of a Book>
+> A boook has a cover. Inside the cover, we have many page. On each page, we have things like titles, subhradings, paragraphs, page  numbers, etc.
+> <cover>(Opening Cover)
+> </cover> (Closing Tag)
+> Together opening and closing tag is called as element
+> <cover>
+><pages></pages>
+><pages></pages>
+></cover>
 
-Basis Tags :
-<Think of a Book>
-A boook has a cover. Inside the cover, we have many page. On each page, we have things like titles, subhradings, paragraphs, page numbers, etc.
-<cover>(Opening Cover)
-</cover> (Closing Tag)
-Together opening and closing tag is called as element
-<cover>
-<pages></pages>
-<pages></pages>
-</cover>
-~ Tags are inside of <>
-~ Closing tags include a forward slash </>
-~ Every thing from the opening and closing tag is called an element
--->
+> Tags are inside of <>
+> Closing tags include a forward slash </>
+> Every thing from the opening and closing tag is called an element
 
 >  # Basic file structure
->- ![Alt text](image-1.png)
+> ![Alt text](image-1.png)
 >
 > Tags to make sentence **BOLD**
 >- ``<strong>Hey Jazz!</strong>``
@@ -68,5 +67,22 @@ Together opening and closing tag is called as element
 > CSS is all about **property : value;** pairs
 >- Properties are what we want to change, Like : font , color, font-weight....
 >- value are what we want to set that property to, font-size : 21px;
+>- - The Syntax : ``font-size: 21px;``
+>- - The Style attribute: ``<p style="font-size: 21px;">this is paragraph</a>``
+>- we can write *CSS* inside a style attribute
 
+# > HTML lists
+> Two types of list
+>- Order list ``<ol>``
+>- Unorderd list ``<ul>``
+>- list item ``<li>``
+
+# > Images
+> Images are like links, in that they require an attribute to work
+>- ``<image src="image-1.png">``
+>- ``<image src="https://images.app.goo.gl/gtetUDziM4r7oejt5">``
+
+
+# > ASSIGNMENT 1
+> (I would prefer you to before going to solution first go though *instruction.txt* file and try to do assignment by your-self.)
 
