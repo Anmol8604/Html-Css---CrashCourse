@@ -88,10 +88,10 @@
 > # Types of CSS
 > **Internal CSS**
 >> ``<head>``
->> ``    <style>``
->> ``        css goes here... ``
->> ``    </style>``
->> ``</head>``
+>>>``    <style>``
+>>>> ``        css goes here... ``
+>>>>> ``    </style>``
+>>>>>> ``</head>``
 >> *But how do we choose what we want to style?*
 >- Selectors 
 > ``body{`` always followed by {}
