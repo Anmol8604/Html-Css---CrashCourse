@@ -87,12 +87,12 @@
 
 > # Types of CSS
 > **Internal CSS**
-> ``<head>``
-> ``    <style>``
-> ``        css goes here... ``
-> ``    </style>``
-> ``</head>``
-> *But how do we choose what we want to style?*
+>> ``<head>``
+>> ``    <style>``
+>> ``        css goes here... ``
+>> ``    </style>``
+>> ``</head>``
+>> *But how do we choose what we want to style?*
 >- Selectors 
 > ``body{`` always followed by {}
 > ``    color : #323232;`` don't forget the semi-colon! 
