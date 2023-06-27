@@ -26,8 +26,7 @@
 > ![Alt text](image.png)
 
 >
->  
-Html is a very Simple language:
+> Html is a very Simple language:
 >that tells the browser what the content we are writing actually is : Heading or paragraph ?
 >
 > Basis Tags :
@@ -71,18 +70,37 @@ Html is a very Simple language:
 >- - The Style attribute: ``<p style="font-size: 21px;">this is paragraph</a>``
 >- we can write *CSS* inside a style attribute
 
-# > HTML lists
+> # HTML lists
 > Two types of list
 >- Order list ``<ol>``
 >- Unorderd list ``<ul>``
 >- list item ``<li>``
 
-# > Images
+> # Images
 > Images are like links, in that they require an attribute to work
 >- ``<image src="image-1.png">``
 >- ``<image src="https://images.app.goo.gl/gtetUDziM4r7oejt5">``
 
 
-# > ASSIGNMENT 1
+##  ASSIGNMENT 1
 > (I would prefer you to before going to solution first go though *instruction.txt* file and try to do assignment by your-self.)
 
+> # Types of CSS
+> **Internal CSS**
+> ``<head>``
+> ``    <style>``
+> ``        css goes here... ``
+> ``    </style>``
+> ``</head>``
+> *But how do we choose what we want to style?*
+>- Selectors 
+> ``body{`` always followed by {}
+> ``    color : #323232;`` don't forget the semi-colon! 
+> ``}``
+>
+> **External CSS**
+> *Internal CSS is awesome. but what if we want to change the background color, or text color, to be the same on all our pages?*
+> ``file name extension : %.css`` here %represents any name.
+> *With an external css file, we can have one stylesheet controlling all of our pages at the same time.*
+> *How to add External css file in html*
+> ``<link rel="stylesheet" href="earth_mars.css">``
