@@ -87,20 +87,20 @@
 
 > # Types of CSS
 > **Internal CSS**
->> ``<head>``
->>>``    <style>``
->>>> ``        css goes here... ``
->>>>> ``    </style>``
->>>>>> ``</head>``
+> ``<head>``
+>>``    <style>``
+>>> ``        css goes here... ``
+>> ``    </style>``
+> ``</head>``
 >> *But how do we choose what we want to style?*
 >- Selectors 
-> ``body{`` always followed by {}
-> ``    color : #323232;`` don't forget the semi-colon! 
-> ``}``
+>> ``body{`` always followed by {}
+>>> ``    color : #323232;`` don't forget the semi-colon! 
+>> ``}``
 >
 > **External CSS**
-> *Internal CSS is awesome. but what if we want to change the background color, or text color, to be the same on all our pages?*
-> ``file name extension : %.css`` here %represents any name.
-> *With an external css file, we can have one stylesheet controlling all of our pages at the same time.*
-> *How to add External css file in html*
-> ``<link rel="stylesheet" href="earth_mars.css">``
+>> *Internal CSS is awesome. but what if we want to change the background color, or text color, to be the same on all our pages?*
+>> ``file name extension : %.css`` here %represents any name.
+>> *With an external css file, we can have one stylesheet controlling all of our pages at the same time.*
+>> *How to add External css file in html*
+>> ``<link rel="stylesheet" href="earth_mars.css">``
