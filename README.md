@@ -87,20 +87,64 @@
 
 > # Types of CSS
 > **Internal CSS**
-> ``<head>``
->>``    <style>``
->>> ``        css goes here... ``
->> ``    </style>``
-> ``</head>``
->> *But how do we choose what we want to style?*
+> ``<head>
+        <style>
+            css goes here...
+        </style>
+    </head>``
+> *But how do we choose what we want to style?*
 >- Selectors 
->> ``body{`` always followed by {}
->>> ``    color : #323232;`` don't forget the semi-colon! 
->> ``}``
+> ``body{ always followed by {}
+        color : #323232;`` don't forget the semi-colon! 
+    }``
 >
 > **External CSS**
->> *Internal CSS is awesome. but what if we want to change the background color, or text color, to be the same on all our pages?*
->> ``file name extension : %.css`` here %represents any name.
->> *With an external css file, we can have one stylesheet controlling all of our pages at the same time.*
->> *How to add External css file in html*
->> ``<link rel="stylesheet" href="earth_mars.css">``
+> *Internal CSS is awesome. but what if we want to change the background color, or text color, to be the same on all our pages?*
+> ``file name extension : %.css`` here %represents any name.
+> *With an external css file, we can have one stylesheet controlling all of our pages at the same time.*
+> *How to add External css file in html*
+> ``<link rel="stylesheet" href="earth_mars.css">``
+
+> # Three primary ways to select something
+> Element selector
+>- ![Alt text](image-2.png)
+> Class selector
+>- ![Alt text](image-3.png)
+> ID selector
+>- ![Alt text](image-4.png)
+> # ID vs Class
+>- ID is an individual, It can be used on time per page
+>- A class is a group, it can be used over and over
+>- ID will overwrite a class if they are both selecting the samething.
+> # Comments in html
+> ``<!-- comment here -->``
+> # Comments in CSS
+> ``/* comment here */``
+> # There are several "Layout" related tags.
+> - header 
+> - footer
+> - main
+> - nav
+> - section
+> - div(generic)
+
+> # Margins And Padding
+>- **Margins :** Margins are used to control the postion of an element relative to those around it.
+>- - margin-left
+>- - margin-right
+>- - margin-top
+>- - margin-bottom
+>- - ``margin: 10px 10px 10px 10px;``(top right bottom left)
+>- - ``margin: 10px;``(All sides)
+>- - ``margin: 10px 20px``(top and bottom , left and right)
+
+>- **Padding :** Padding is used to control the postion of content inside our element.
+>- *It works just like margins in terms of the long form and shorthand properties*
+ 
+> # Borders
+> *Borders add aborder around your element. they are similar to a stroke if you are used to vector software.*
+>- **It takes three Properties to set a border** 
+>- - border-width
+>- - border-style
+>- - border-color
+> ![Alt text](image-5.png)
