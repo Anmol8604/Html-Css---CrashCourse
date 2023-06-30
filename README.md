@@ -151,10 +151,12 @@
 
 ># Bootstrap
 > **What is Bootstrap ?**
+>
 > *Bootstrap is responsive framework...*
 
 > # Some Basic Properties of CSS
 > ``font-family: Arial, Helvetica, sans-serif;``
+>
 > ``border: border-box;``
 > ``color: #fdd037;``
 > ``height: 55px;``
