@@ -87,12 +87,17 @@
 
 > # Types of CSS
 > **Internal CSS**
-> ``<head>
-        <style>
-            css goes here...
-        </style>
-    </head>``
-> *But how do we choose what we want to style?*
+> ``<head>``
+>
+        ``<style>``
+>
+            ``css goes here...``
+>
+        ``</style>``
+>
+    ``</head>``
+> 
+*But how do we choose what we want to style?*
 >- Selectors 
 > ``body{ always followed by {}
         color : #323232;`` don't forget the semi-colon! 
@@ -158,13 +163,21 @@
 > ``font-family: Arial, Helvetica, sans-serif;``
 >
 > ``border: border-box;``
+>
 > ``color: #fdd037;``
+>
 > ``height: 55px;``
+>
 > ``width: 100%;``
+>
 > ``background-color: #244d61;``
+>
 > ``align-items: center;``
+>
 > ``justify-content: space-evenly;``
+>
 > ``padding: 5px;``
+>
 > ``display: flex;``
 >
 # Congratulations💥💥
