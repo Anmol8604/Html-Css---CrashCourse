@@ -108,9 +108,9 @@
 > # Three primary ways to select something
 > Element selector
 >- ![Alt text](image-2.png)
-> Class selector
+>> Class selector
 >- ![Alt text](image-3.png)
-> ID selector
+>> ID selector
 >- ![Alt text](image-4.png)
 > # ID vs Class
 >- ID is an individual, It can be used on time per page
@@ -148,3 +148,22 @@
 >- - border-style
 >- - border-color
 > ![Alt text](image-5.png)
+
+># Bootstrap
+> **What is Bootstrap ?**
+> *Bootstrap is responsive framework...*
+
+> # Some Basic Properties of CSS
+> ``font-family: Arial, Helvetica, sans-serif;``
+> ``border: border-box;``
+> ``color: #fdd037;``
+> ``height: 55px;``
+> ``width: 100%;``
+> ``background-color: #244d61;``
+> ``align-items: center;``
+> ``justify-content: space-evenly;``
+> ``padding: 5px;``
+> ``display: flex;``
+>
+# Congratulations💥💥
+# You're done with basics of Html & CSS.💐💐
